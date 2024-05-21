@@ -1,0 +1,36 @@
+Flattener config for: ASIC_Rewrite-_Derivatives_Trade_Reporting_auth_109_001_01_ASICUG_DATMDS_1_0_0_20240119_0928_iso15.xsd
+
+Note: repeatable node Stat[1-unbounded]
+Stat.CtrPtyId.RptgCtrPty.Id.Lgl.Id.LEI;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/CtrPtyId/RptgCtrPty/Id/Lgl/Id/LEI
+Stat.CtrPtyId.RptgCtrPty.RptgXmptn.Rsn;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/CtrPtyId/RptgCtrPty/RptgXmptn/Rsn
+Stat.CtrPtyId.OthrCtrPty.IdTp.Lgl.Id.LEI;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/CtrPtyId/OthrCtrPty/IdTp/Lgl/Id/LEI
+Stat.CtrPtyId.OthrCtrPty.IdTp.Lgl.Id.Othr.Id.Id;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/CtrPtyId/OthrCtrPty/IdTp/Lgl/Id/Othr/Id/Id
+Stat.CtrPtyId.OthrCtrPty.IdTp.Ntrl.Id.Id.Id;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/CtrPtyId/OthrCtrPty/IdTp/Ntrl/Id/Id/Id
+Stat.CtrPtyId.SubmitgAgt.LEI;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/CtrPtyId/SubmitgAgt/LEI
+Stat.CtrPtyId.NttyRspnsblForRpt.LEI;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/CtrPtyId/NttyRspnsblForRpt/LEI
+Stat.TxId.UnqTxIdr;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/TxId/UnqTxIdr
+Stat.TxId.Prtry.Id;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/TxId/Prtry/Id
+Stat.Coll.CollPrtflCd.MrgnPrtflCd.InitlMrgnPrtflCd.Prtfl.Cd;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/Coll/CollPrtflCd/MrgnPrtflCd/InitlMrgnPrtflCd/Prtfl/Cd
+Stat.Coll.CollPrtflCd.MrgnPrtflCd.InitlMrgnPrtflCd.Prtfl.PrtflTxXmptn;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/Coll/CollPrtflCd/MrgnPrtflCd/InitlMrgnPrtflCd/Prtfl/PrtflTxXmptn
+Stat.Coll.CollPrtflCd.MrgnPrtflCd.InitlMrgnPrtflCd.NoPrtfl;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/Coll/CollPrtflCd/MrgnPrtflCd/InitlMrgnPrtflCd/NoPrtfl
+Stat.Coll.CollPrtflCd.MrgnPrtflCd.VartnMrgnPrtflCd.Prtfl.Cd;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/Coll/CollPrtflCd/MrgnPrtflCd/VartnMrgnPrtflCd/Prtfl/Cd
+Stat.Coll.CollPrtflCd.MrgnPrtflCd.VartnMrgnPrtflCd.Prtfl.PrtflTxXmptn;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/Coll/CollPrtflCd/MrgnPrtflCd/VartnMrgnPrtflCd/Prtfl/PrtflTxXmptn
+Stat.Coll.CollPrtflCd.MrgnPrtflCd.VartnMrgnPrtflCd.NoPrtfl;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/Coll/CollPrtflCd/MrgnPrtflCd/VartnMrgnPrtflCd/NoPrtfl
+Stat.Coll.CollstnCtgy;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/Coll/CollstnCtgy
+Stat.Coll.TmStmp;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/Coll/TmStmp
+Stat.PstdMrgnOrColl.InitlMrgnPstdPreHrcut.Ccy;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/PstdMrgnOrColl/InitlMrgnPstdPreHrcut
+Stat.PstdMrgnOrColl.InitlMrgnPstdPreHrcut.VALUE;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/PstdMrgnOrColl/InitlMrgnPstdPreHrcut
+Stat.PstdMrgnOrColl.InitlMrgnPstdPstHrcut.Ccy;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/PstdMrgnOrColl/InitlMrgnPstdPstHrcut
+Stat.PstdMrgnOrColl.InitlMrgnPstdPstHrcut.VALUE;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/PstdMrgnOrColl/InitlMrgnPstdPstHrcut
+Stat.PstdMrgnOrColl.VartnMrgnPstdPreHrcut.Ccy;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/PstdMrgnOrColl/VartnMrgnPstdPreHrcut
+Stat.PstdMrgnOrColl.VartnMrgnPstdPreHrcut.VALUE;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/PstdMrgnOrColl/VartnMrgnPstdPreHrcut
+Stat.RcvdMrgnOrColl.InitlMrgnRcvdPreHrcut.Ccy;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/RcvdMrgnOrColl/InitlMrgnRcvdPreHrcut
+Stat.RcvdMrgnOrColl.InitlMrgnRcvdPreHrcut.VALUE;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/RcvdMrgnOrColl/InitlMrgnRcvdPreHrcut
+Stat.RcvdMrgnOrColl.InitlMrgnRcvdPstHrcut.Ccy;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/RcvdMrgnOrColl/InitlMrgnRcvdPstHrcut
+Stat.RcvdMrgnOrColl.InitlMrgnRcvdPstHrcut.VALUE;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/RcvdMrgnOrColl/InitlMrgnRcvdPstHrcut
+Stat.RcvdMrgnOrColl.VartnMrgnRcvdPreHrcut.Ccy;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/RcvdMrgnOrColl/VartnMrgnRcvdPreHrcut
+Stat.RcvdMrgnOrColl.VartnMrgnRcvdPreHrcut.VALUE;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/RcvdMrgnOrColl/VartnMrgnRcvdPreHrcut
+Stat.CtrctMod.ActnTp;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/CtrctMod/ActnTp
+Stat.TechAttrbts.TechRcrdId;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/TechAttrbts/TechRcrdId
+Stat.TechAttrbts.RptRctTmStmp;/Document/DerivsTradMrgnDataTxStatRpt/TradData/Stat/TechAttrbts/RptRctTmStmp
+
