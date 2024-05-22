@@ -114,12 +114,12 @@ class XsdWalker:
         repeatable = False
         if node.max_occurs is not None:  # is max_occurs specified?
             if node.max_occurs != 1:
-                print(f'\nNote: repeatable node {column_prefix}[{node.min_occurs}-{node.max_occurs}]')
+                print(f'\nNote: repeatable node {column_prefix.replace(".","_")}[{node.min_occurs}-{node.max_occurs}]')
                 # column_prefix += '[]'
                 repeatable = True
         # xmlschema doesn't seem to handle 'unbounded' string in the node.max_occurs property
         elif node.schema_elem.attrib['maxOccurs'] == 'unbounded':
-            print(f'\nNote: repeatable node {column_prefix}[{node.min_occurs}-unbounded]')
+            print(f'\nNote: repeatable node {column_prefix.replace(".", "_")}[{node.min_occurs}-unbounded]')
             # column_prefix += '[]'
             repeatable = True
 
@@ -133,7 +133,7 @@ class XsdWalker:
             for an_attrib in node.attributes:
                 attrib_node = node.attributes[an_attrib]
                 if isinstance(attrib_node.type, XsdAtomicRestriction):
-                    print(f'{column_prefix}.{attrib_node.name};{xpath}')
+                    print(f'{column_prefix}.{attrib_node.name}')
                     content_suffix = '.VALUE'
 
         # check whether node is of complex type
@@ -141,16 +141,16 @@ class XsdWalker:
             if node.type.is_simple() or node.type.content_type_label == 'simple':
                 if len(column_prefix)>0:
                     # complex type with simple content => print column name
-                    print(f'{column_prefix}{content_suffix};{xpath}')
+                    print(f'{column_prefix}{content_suffix}')
             else:
                 # complex node
                 self.walk_complex_node(node.type.content, xpath, column_prefix)
         elif len(column_prefix)>0:
             if isinstance(node.type, XsdAtomicBuiltin):
                 # atomic node => print column name
-                print(f'{column_prefix}{content_suffix};{xpath}')
+                print(f'{column_prefix}{content_suffix}')
             elif isinstance(node.type, XsdSimpleType):
-                print(f'{column_prefix}{content_suffix};{xpath}')
+                print(f'{column_prefix}{content_suffix}')
             else:
                 print('ERROR: unknown type: ' + node.type)
 
