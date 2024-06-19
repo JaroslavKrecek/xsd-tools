@@ -168,3 +168,4 @@ Stat.CmonTradData.TxData.Packg.Sprd.BsisPtSprd
 Stat.CmonTradData.CtrctMod.ActnTp
 Stat.TechAttrbts.TechRcrdId
 Stat.TechAttrbts.RptRctTmStmp
+

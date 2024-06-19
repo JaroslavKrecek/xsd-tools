@@ -696,4 +696,3 @@ Rpt.Rvv.CmonTradData.TxData.OthrPmt.PmtRcvr.Ntrl.Id.Id
 Rpt.Rvv.CmonTradData.TxData.Packg.CmplxTradId
 Rpt.Rvv.CmonTradData.TxData.Packg.FxSwpLkId
 Rpt.Rvv.TechAttrbts.TechRcrdId
-
