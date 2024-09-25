@@ -108,7 +108,7 @@ class XsdWalker:
         ix_row_tag = xpath.find('/'+self.row_tag+'/')
         if ix_row_tag > -1:
             # add current node name to the column prefix
-            column_prefix += '.'+node_name
+            column_prefix += '_'+node_name
 
         # check whether the node is repeatable
         repeatable = False
@@ -133,8 +133,8 @@ class XsdWalker:
             for an_attrib in node.attributes:
                 attrib_node = node.attributes[an_attrib]
                 if isinstance(attrib_node.type, XsdAtomicRestriction):
-                    print(f'{column_prefix}.{attrib_node.name}')
-                    content_suffix = '.VALUE'
+                    print(f'{column_prefix}_{attrib_node.name}')
+                    content_suffix = '_VALUE'
 
         # check whether node is of complex type
         if isinstance(node.type, XsdComplexType):
